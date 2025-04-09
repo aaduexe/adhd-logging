@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "1bfb7a41e4d3d9f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "d69dd7824ccfa921",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9c3a0cc346b280e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pilot.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pilot"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4a09e6c487e1c85c",
+    "type": "split",
+    "children": [
+      {
+        "id": "e330c0bee1be1ad1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c6008b0b9806ad4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0515d037113e7b4a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "24fb02ee108095ac",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e50f9a4bbb1b9b09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1512a818b864544e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Guide/Keys 🗝.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Keys 🗝"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 259.5
+  },
+  "right": {
+    "id": "89754f116eca6300",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad656d773b512567",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "050f0bb235ebdd12",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Pilot.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Pilot"
+            }
+          },
+          {
+            "id": "c4be9476cf2403d2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Pilot.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Pilot"
+            }
+          },
+          {
+            "id": "7b3a46db08809c50",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5e322efc5a970ca6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Pilot.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Pilot"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "33871093c40dfd86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d4ad3fc37079253",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "a9c3a0cc346b280e",
+  "lastOpenFiles": [
+    "ReadMe.md",
+    "Pilot.md",
+    "02_WeeklyNotes/2025/Apr/Week-15-2025.md",
+    "02_WeeklyNotes/2025/Apr",
+    "02_WeeklyNotes/2025",
+    "01_DailyNotes/2025/Apr/10.md",
+    "01_DailyNotes/2025/Apr",
+    "01_DailyNotes/2025",
+    "00_Guide/Keys 🗝.md",
+    "97_Templates",
+    "New folder",
+    "98_Archive",
+    "02_WeeklyNotes",
+    "01_DailyNotes",
+    "00_Guide"
+  ]
+}
