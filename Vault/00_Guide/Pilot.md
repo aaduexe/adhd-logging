@@ -7,7 +7,7 @@ The hell is this elaboration, [[Cut the crap guide|Just tell me how to use]].
 > ⚠️ Before we go any further, I’m *hoping* you’ve skimmed through the `README` on [GitHub](https://github.com/aaduexe/adhd-logging). That’s where the boring stuff lives, so I don’t have to re-explain it all here. Let’s dive straight into the good stuff.
 
 <!-- 
-[version:: 0.0.0]
+[version:: 0.0.1]
 -->
 
 ---
