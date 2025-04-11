@@ -1,0 +1,1 @@
+[endTime:: <%tp.date.now("HH:mm")%>]

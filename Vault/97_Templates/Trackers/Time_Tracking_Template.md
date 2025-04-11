@@ -1,0 +1,1 @@
+- [T] <%tp.file.cursor(1)%> - [[<%tp.file.cursor(2)%>]] - [startTime:: <%tp.date.now("HH:mm")%>]

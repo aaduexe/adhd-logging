@@ -1,0 +1,2 @@
+- [b] #log/extract on [[<%tp.file.cursor(1)%>
+	- <%tp.file.cursor(2)%>

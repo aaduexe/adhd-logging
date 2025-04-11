@@ -1,0 +1,1 @@
+- [ ] <% tp.file.cursor(1) %> - [[<% tp.file.cursor(2) %>]] #task <%tp.file.cursor(3)%>

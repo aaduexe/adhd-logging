@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"f6273573aae3a6b0","type":"text","text":"YYYY-MM-DD\n*You will log everything in daily note*\n- Sprint on [[Project]]\n\t- In detail log what you did on the project.\n- Watched episode 12 of [[Show Name]]\n- Boondocks - reccomendation - [source:: Friend]\n- Ak47 - wishlisht\n- Cooked [[Ramen]]\n\t- Additional log on how it tasted and stuff\n- [ ] Task on [[Project]]","x":-260,"y":-240,"width":385,"height":420},
+		{"id":"f2da5f664e2da748","type":"text","text":"Project\n>[!note] Log\n>YYYY-MM-DD\n>- Sprint on [[Project]]\n>\t- In detail log what you did on the project.\n\n>[!question] Open\n>- [ ] Task on [[Project]]","x":560,"y":-724,"width":501,"height":384},
+		{"id":"c2646b5b4dff6488","type":"text","text":"Show Name\n>[!note] Log\n>YYYY-MM-DD\n>- Watched episode 12 of [[Show Name]]","x":561,"y":-270,"width":500,"height":200},
+		{"id":"dd3ecae2645e545d","type":"text","text":"Recommendation List\n- Boondocks - reccomendation - [source:: Friend]","x":561,"y":-30,"width":500,"height":120},
+		{"id":"e3aafed89eee8dec","type":"text","text":"Wishlist\n- Ak47 - wishlisht","x":561,"y":130,"width":500,"height":120},
+		{"id":"b43accb78ab8caa8","type":"text","text":"Ramen\n{Actual recipe}\n\n---\n>[!note] Cooking sessions\n>YYYY-MM-DD\n>- Cooked [[Ramen]]\n>\t- Additional log on how it tasted and stuff","x":561,"y":290,"width":500,"height":360},
+		{"id":"b892f3bce7d55f9c","type":"text","text":"# Next > [[How to log]]","x":-212,"y":-612,"width":337,"height":80,"color":"1"}
+	],
+	"edges":[
+		{"id":"3b4a2ce8b83ec6b5","fromNode":"f6273573aae3a6b0","fromSide":"right","toNode":"f2da5f664e2da748","toSide":"left"},
+		{"id":"6e2a33944e5d0d95","fromNode":"f6273573aae3a6b0","fromSide":"right","toNode":"c2646b5b4dff6488","toSide":"left"},
+		{"id":"f135bacf2b7dd103","fromNode":"f6273573aae3a6b0","fromSide":"right","toNode":"dd3ecae2645e545d","toSide":"left"},
+		{"id":"81c73ec3a79a666e","fromNode":"f6273573aae3a6b0","fromSide":"right","toNode":"e3aafed89eee8dec","toSide":"left"},
+		{"id":"617b2cb0a67a1738","fromNode":"f6273573aae3a6b0","fromSide":"right","toNode":"b43accb78ab8caa8","toSide":"left"}
+	]
+}

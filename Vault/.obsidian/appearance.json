@@ -1,3 +1,6 @@
 {
-  "accentColor": "#e29f40"
+  "accentColor": "#e29f40",
+  "enabledCssSnippets": [
+    "S - Checkboxes"
+  ]
 }

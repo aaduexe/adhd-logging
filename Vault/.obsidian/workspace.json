@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d69dd7824ccfa921",
+        "id": "d1439f350233c7e3",
         "type": "tabs",
         "children": [
           {
-            "id": "a9c3a0cc346b280e",
+            "id": "8a7d8af37b3cc1c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pilot.md",
-                "mode": "preview",
+                "file": "00_Guide/01_demoNotes/2025-04-11.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pilot"
+              "title": "2025-04-11"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#sprint",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,26 +75,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "e50f9a4bbb1b9b09",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1512a818b864544e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Guide/Keys 🗝.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Keys 🗝"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -109,12 +89,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "9d4ad3fc37079253",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
             "id": "050f0bb235ebdd12",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pilot.md",
+                "file": "00_Guide/Pilot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pilot"
+              "title": "Backlinks for Cut the crap guide"
             }
           },
           {
@@ -162,33 +152,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pilot.md",
+                "file": "Build an Aircraft.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pilot"
+              "title": "Outline of Build an Aircraft"
             }
           }
         ],
         "currentTab": 3
-      },
-      {
-        "id": "33871093c40dfd86",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9d4ad3fc37079253",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -206,22 +180,46 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a9c3a0cc346b280e",
+  "active": "7b3a46db08809c50",
   "lastOpenFiles": [
-    "ReadMe.md",
-    "Pilot.md",
+    "00_Guide/01_demoNotes/2025-03-06.md",
+    "00_Guide/01_demoNotes/2023-10-10.md",
+    "00_Guide/Cut the crap guide.md",
     "02_WeeklyNotes/2025/Apr/Week-15-2025.md",
+    "Try Note.md",
+    "97_Templates/Full_Page_Templates/Weekly_Notes_Template.md",
     "02_WeeklyNotes/2025/Apr",
     "02_WeeklyNotes/2025",
-    "01_DailyNotes/2025/Apr/10.md",
-    "01_DailyNotes/2025/Apr",
-    "01_DailyNotes/2025",
-    "00_Guide/Keys 🗝.md",
-    "97_Templates",
-    "New folder",
-    "98_Archive",
-    "02_WeeklyNotes",
-    "01_DailyNotes",
-    "00_Guide"
+    "97_Templates/Full_Page_Templates/Visual_Project_Template.md",
+    "97_Templates/Full_Page_Templates/Trackable_Goal_Template.md",
+    "97_Templates/Video_Project_Template.md",
+    "97_Templates/Trackers/Time_Tracking_Template.md",
+    "97_Templates/Log_Templates/Task_For_Project_Template.md",
+    "97_Templates/Trackers/Start_Time_Template.md",
+    "97_Templates/Full_Page_Templates/Skill_Learning_Template.md",
+    "97_Templates/Full_Page_Templates/People_Template.md",
+    "97_Templates/Log_Templates/Open_question_Template.md",
+    "97_Templates/Full_Page_Templates/Literature_Notes_Template.md",
+    "97_Templates/MOC_Template.md",
+    "97_Templates/Full_Page_Templates/Leisure_Template.md",
+    "97_Templates/Full_Page_Templates/Idea_Full_Page_Template.md",
+    "97_Templates/Trackers/Habit_Tracker_Template.md",
+    "97_Templates/Log_Templates/Fleeting_Reccomendation_Template.md",
+    "97_Templates/Full_Page_Templates/Client_Project_Template.md",
+    "97_Templates/Full_Page_Templates/Fleeting_Notes_Template.md",
+    "97_Templates/Full_Page_Templates",
+    "97_Templates/Full_Page_Templates/Daily_Notes_Template.md",
+    "97_Templates/Log_Templates/Dailies_Template.md",
+    "97_Templates/Trackers/End_Time_Template.md",
+    "97_Templates/Trackers",
+    "00_Guide/02_Attachmetns",
+    "99_Attachments/Pasted image 20250411180952.png",
+    "97_Templates/Log_Templates",
+    "97_Templates/New folder",
+    "00_Guide/02_Attachmetns/Pasted image 20250411181011.png",
+    "00_Guide/Framework.canvas",
+    "01_DailyNotes/2023/Oct",
+    "01_DailyNotes/2023",
+    "01_DailyNotes/2025/Mar"
   ]
 }
