@@ -1,5 +1,5 @@
 ---
-RecordDate: <% tp.file.creation_date("YYYY-MM-DD") %>
+RecordDate: 2025-04-13
 Deadline: 
 IntendedResult: 
 Status: to_do
@@ -8,8 +8,6 @@ info:
 Parent: 
 Object: Project
 ---
-Space For embeding MindFlow
-
 >[!rsrc]  Related Notes
 >```dataview
 >TABLE Object
@@ -21,8 +19,8 @@ Space For embeding MindFlow
 > ```dataview
 > TASK
 >WHERE contains(text, "#log/sprint" )
->AND contains(text, this.file.name)
->OR any(this.file.inlinks, (x) => contains(outlinks, x))
+>AND (contains(text, this.file.name)
+>OR any(this.file.inlinks, (x) => contains(outlinks, x)))
 >GROUP by file.name as fileName
 >SORT fileName DESC
 
@@ -42,23 +40,3 @@ Space For embeding MindFlow
 >AND (contains(text, "#task") or contains(text, "#question"))
 >AND (contains(text, this.file.name) OR any(this.file.inlinks, (x) => contains(outlinks, x)))
 
-# Projects
-
-> [!atom] Active
-> ```dataview
-> TABLE Deadline
-> FROM "03_Projects"
-> WHERE contains(Status, "active") and contains(file.outlinks, this.file.link)
-
-> [!warning] Inactive
-> ```dataview
-> TABLE Deadline, Status
-> FROM "03_Projects"
-> WHERE (!contains(Status, "active") or !contains(Status, "completed"))
-> AND contains(file.outlinks, this.file.link)
-
-> [!done] Completed
-> ```dataview
-> TABLE Deadline
-> FROM "03_Projects"
-> WHERE contains(Status, "completed") and contains(file.outlinks, this.file.link)

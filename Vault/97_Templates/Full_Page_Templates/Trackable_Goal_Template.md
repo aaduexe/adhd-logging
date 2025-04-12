@@ -3,17 +3,16 @@ RecordDate: <% tp.file.creation_date("YYYY-MM-DD") %>
 Deadline: 
 tags: 
 Parent: 
-Child: 
-Object:
-  - Goal
+Object: Goal
 ---
 %% Delete this comment and setup a tracker if you need to. %%
 
 >[!rsrc]  Related Notes
 >```dataview
 >TABLE Object
->FROM !"03_Project" and !"01_DailyNotes"
->WHERE contains(file.outlinks, this.file.link)
+>FROM !"01_DailyNotes"
+>WHERE !(contains(Object, "Project") OR contains(Object, "DailyNote"))
+>AND contains(file.outlinks, this.file.link)
 
 > [!example] Logs
 > ```dataview

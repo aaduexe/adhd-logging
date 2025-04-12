@@ -3,6 +3,8 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "Parent": "multitext"
+    "Parent": "multitext",
+    "Object": "text",
+    "IntendedResult": "multitext"
   }
 }

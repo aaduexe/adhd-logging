@@ -1,13 +1,13 @@
 ---
-RecordDate: <% tp.file.creation_date("YYYY-MM-DD") %>
+RecordDate: 2025-04-13
 tags:
-  - genre
-Status: to_do
+  - "#genre/action"
+Status: read
 info: 
-Leisure: 
-Rating: 
+Leisure: Book
+Rating: ⭐
 Object: Leisure
-Cover:
+Cover: You can paste the image link here, and plugins like Dashboard visualize your library nicely
 ---
 > [!example] Progress
 > ```dataview
@@ -19,7 +19,7 @@ Cover:
 
 ---
 # Misc.
-<%tp.file.cursor()%>
+
 
 ---
 >[!abstract] Ideas

@@ -1,8 +1,7 @@
 ---
 tags: 
 aliases: 
-Object:
-  - Noun
+Object: Noun
 ---
 
 %%Replace this comment with an Image%%

@@ -1,6 +1,5 @@
 ---
-Object:
-  - Fleeting
+Object: Fleeting
 tags:
 ---
 <%tp.file.cursor()%>

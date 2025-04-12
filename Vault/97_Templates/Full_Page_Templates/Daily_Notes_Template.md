@@ -1,9 +1,6 @@
 ---
 aliases: 
-cssclasses:
-  - wide-page
-Object:
-  - Daily_Note
+Object: DailyNote
 ---
 
 # Logs

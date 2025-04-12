@@ -6,15 +6,14 @@ Status: to_do
 Collaborator: 
 info: 
 Parent: 
-Client: 
-Object:
-  - Project
+Object: Project
 ---
 >[!rsrc]  Related Notes
 >```dataview
 >TABLE Object
->FROM !"03_Project" and !"01_DailyNotes"
->WHERE contains(file.outlinks, this.file.link)
+>FROM !"01_DailyNotes"
+>WHERE !(contains(Object, "Project") OR contains(Object, "DailyNote"))
+>AND contains(file.outlinks, this.file.link)
 
 > [!example] Logs
 > ```dataview

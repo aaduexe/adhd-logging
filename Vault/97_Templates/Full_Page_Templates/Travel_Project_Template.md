@@ -7,19 +7,18 @@ Status: active
 Collaborator: 
 Parent:
   - "[[Travel]]"
-Child: 
-Object:
-  - Project
+Object: Project
 ---
 >[!abstract] Trip Members.
->[[Aadu|Me]]: As I'm the host. Otherwise why would I need this?
+>[[Your Name|Me]]: 
 
 ---
 >[!rsrc]  Related Notes
 >```dataview
 >TABLE Object
->FROM !"03_Project" and !"01_DailyNotes"
->WHERE contains(file.outlinks, this.file.link)
+>FROM !"01_DailyNotes"
+>WHERE !(contains(Object, "Project") OR contains(Object, "DailyNote"))
+>AND contains(file.outlinks, this.file.link)
 
 > [!example] Logs
 > ```dataview

@@ -1,6 +1,5 @@
 ---
-Object:
-  - Literature
+Object: Literature
 Parent:
 ---
 <%tp.file.cursor(1)%>
