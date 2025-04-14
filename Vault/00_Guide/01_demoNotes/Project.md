@@ -5,7 +5,8 @@ IntendedResult:
 Status: to_do
 Collaborator: 
 info: 
-Parent: 
+Parent:
+  - "[[Goal]]"
 Object: Project
 ---
 >[!rsrc]  Related Notes

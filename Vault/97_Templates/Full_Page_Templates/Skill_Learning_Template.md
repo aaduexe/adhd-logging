@@ -42,18 +42,15 @@ info:
 > [!atom] Active
 > ```dataview
 > TABLE Deadline
-> FROM "03_Projects"
-> WHERE contains(Status, "active") and contains(file.outlinks, this.file.link)
+> WHERE (contains(Status, "active") and contains(file.outlinks, this.file.link)) AND (contains(Object, "Project"))
 
 > [!warning] Inactive
 > ```dataview
 > TABLE Deadline, Status
-> FROM "03_Projects"
 > WHERE (!contains(Status, "active") or !contains(Status, "completed"))
-> AND contains(file.outlinks, this.file.link)
+> AND contains(file.outlinks, this.file.link) AND contains(Object, "Project")
 
 > [!done] Completed
 > ```dataview
 > TABLE Deadline
-> FROM "03_Projects"
-> WHERE contains(Status, "completed") and contains(file.outlinks, this.file.link)
+> WHERE contains(Status, "completed") and contains(file.outlinks, this.file.link) AND contains(Object, "Project")

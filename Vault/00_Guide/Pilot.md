@@ -4,10 +4,10 @@ If you’ve landed here, I just want to say — wow, thank you. It’s kinda wil
 
 The hell is this elaboration, [[Cut the crap guide|Just tell me how to use]].
 
-> ⚠️ Before we go any further, I’m *hoping* you’ve skimmed through the `README` on [GitHub](https://github.com/aaduexe/adhd-logging). That’s where the boring stuff lives, so I don’t have to re-explain it all here. Let’s dive straight into the good stuff.
+> ⚠️ If you have anything to contribute you can do it in the [GitHub Repo](https://github.com/aaduexe/adhd-logging).
 
 <!-- 
-[version:: 0.0.2]
+[version:: 0.2.2]
 -->
 
 ---
@@ -33,6 +33,8 @@ Also, heads up — I’m assuming you have at least a baby idea of how Obsidian 
 | 3   | [[Status]]     | Keeps track of progress, whether it's a spark, a slump, or a WIP.           | 🟢       |
 | 4   | [[RecordDate]] | Useful for remembering when you *actually* started something.               | 🟣       |
 
+^cc2a94
+
 ---
 
 ## 🔌 Plugins:
@@ -44,6 +46,8 @@ Also, heads up — I’m assuming you have at least a baby idea of how Obsidian 
 | 3   | [Natural Language Dates](https://www.obsidianstats.com/plugins/nldates-obsidian) | Just makes typing dates feel ✨natural✨.             | 🟢       |
 | 4   | [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)                 | Scroll your life like it’s a diary.                 | 🟢       |
 
+^5131dc
+
 ---
 
 > [!tldr] Heads-Up
@@ -51,4 +55,5 @@ Also, heads up — I’m assuming you have at least a baby idea of how Obsidian 
 
 ---
 <p align="center"><a href= "obsidian://open?vault=Vault&file=00_Guide%2FFramework.canvas">Look at the Framework</a></p>
+<p align="center"><a href= "obsidian://open?vault=Vault&file=00_Guide%2FINDEX">Jump to INDEX</a></p>
 

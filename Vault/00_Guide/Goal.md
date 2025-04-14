@@ -1,17 +1,15 @@
 ---
-RecordDate: <% tp.file.creation_date("YYYY-MM-DD") %>
+RecordDate: 2025-04-13
 Deadline: 
-IntendedResult: 
-Status: to_do
-Collaborator: 
-info: 
+tags: 
 Parent: 
-Object: Project
+Object: Goal
 ---
+%% Delete this comment and setup a tracker if you need to. %%
+
 >[!rsrc]  Related Notes
 >```dataview
 >TABLE Object
->FROM !"01_DailyNotes"
 >WHERE !(contains(Object, "Project") OR contains(Object, "DailyNote"))
 >AND contains(file.outlinks, this.file.link)
 
@@ -39,3 +37,25 @@ Object: Project
 >WHERE completed
 >AND (contains(text, "#task") or contains(text, "#question"))
 >AND (contains(text, this.file.name) OR any(this.file.inlinks, (x) => contains(outlinks, x)))
+
+# Projects
+
+> [!atom] Active
+> ```dataview
+> TABLE Deadline
+> WHERE contains(Object, "Project") AND (contains(Status, "active") and contains(file.outlinks, this.file.link))
+
+> [!warning] Inactive
+> ```dataview
+> TABLE Deadline, Status
+> WHERE !(contains(Status, "active")
+> OR contains(Status, "completed"))
+> AND contains(file.outlinks, this.file.link)
+> AND contains(Object, "Project")
+
+> [!done] Completed
+> ```dataview
+> TABLE Deadline
+> WHERE (contains(Status, "completed") and contains(file.outlinks, this.file.link))
+> AND contains(Object, "Project")
+

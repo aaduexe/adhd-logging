@@ -1,19 +1,15 @@
 ---
 RecordDate: <% tp.file.creation_date("YYYY-MM-DD") %>
 Deadline: 
-IntendedResult: 
-Status: to_do
-Collaborator: 
-info: 
+tags: 
 Parent: 
-Object: Project
+Object: Goal
 ---
-Space For embeding MindFlow
+%% Delete this comment and setup a tracker if you need to. %%
 
 >[!rsrc]  Related Notes
 >```dataview
 >TABLE Object
->FROM !"01_DailyNotes"
 >WHERE !(contains(Object, "Project") OR contains(Object, "DailyNote"))
 >AND contains(file.outlinks, this.file.link)
 
@@ -47,18 +43,18 @@ Space For embeding MindFlow
 > [!atom] Active
 > ```dataview
 > TABLE Deadline
-> FROM "03_Projects"
-> WHERE contains(Status, "active") and contains(file.outlinks, this.file.link)
+> WHERE contains(Object, "Project") AND (contains(Status, "active") and contains(file.outlinks, this.file.link))
 
 > [!warning] Inactive
 > ```dataview
 > TABLE Deadline, Status
-> FROM "03_Projects"
-> WHERE (!contains(Status, "active") or !contains(Status, "completed"))
+> WHERE !(contains(Status, "active")
+> OR contains(Status, "completed"))
 > AND contains(file.outlinks, this.file.link)
+> AND contains(Object, "Project")
 
 > [!done] Completed
 > ```dataview
 > TABLE Deadline
-> FROM "03_Projects"
-> WHERE contains(Status, "completed") and contains(file.outlinks, this.file.link)
+> WHERE (contains(Status, "completed") and contains(file.outlinks, this.file.link))
+> AND contains(Object, "Project")
