@@ -4,10 +4,12 @@ If you’ve landed here, I just want to say — wow, thank you. It’s kinda wil
 
 The hell is this elaboration, [[Cut the crap guide|Just tell me how to use]].
 
-> ⚠️ If you have anything to contribute you can do it in the [GitHub Repo](https://github.com/aaduexe/adhd-logging).
+>[!tldr] Note
+>- If you have anything to contribute you can do it in the [GitHub Repo](https://github.com/aaduexe/adhd-logging).
+>- In case of feedback, issue, or any questions, directly reach out to me on `aaduexe@+ov@gmail.com`
 
 <!-- 
-[version:: 0.2.2]
+[version:: 1.0.0]
 -->
 
 ---
@@ -26,12 +28,12 @@ Also, heads up — I’m assuming you have at least a baby idea of how Obsidian 
 
 ## 🧱 Properties:
 
-| #   | Property       | What It’s For                                                               | Crucial? |
-| --- | -------------- | --------------------------------------------------------------------------- | -------- |
-| 1   | [[Object]]     | Helps classify the note type. Super useful for organizing & querying later. | 🟡       |
-| 2   | [[Parent]]     | Connects related notes so you can pull logs or musings into bigger topics.  | 🔴       |
-| 3   | [[Status]]     | Keeps track of progress, whether it's a spark, a slump, or a WIP.           | 🟢       |
-| 4   | [[RecordDate]] | Useful for remembering when you *actually* started something.               | 🟣       |
+| #   | Property   | What It’s For                                                               | Crucial? |
+| --- | ---------- | --------------------------------------------------------------------------- | -------- |
+| 1   | [[Object]] | Helps classify the note type. Super useful for organizing & querying later. | 🟡       |
+| 2   | Parent     | Connects related notes so you can pull logs or musings into bigger topics.  | 🔴       |
+| 3   | Status     | Keeps track of progress, whether it's a spark, a slump, or a WIP.           | 🟢       |
+| 4   | RecordDate | Useful for remembering when you *actually* started something.               | 🟣       |
 
 ^cc2a94
 
