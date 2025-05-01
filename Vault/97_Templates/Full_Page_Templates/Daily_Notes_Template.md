@@ -1,22 +1,18 @@
 ---
 aliases: 
-Object: DailyNote
+Object:
+  - Daily_Note
 ---
 # Logs
-*Sprint logs on Projects, Goals, Skills, Learning, Journey.*
+%%Any progress towards any area%%
 
+## Additional Logs
+%%Additional logs and documentation%%
 
-## Trackers
+## Dump
+%%All kind of checklist, wishlist, task, quetion etc%%
 
+# Trackers
+%%Habit tracking%%
 
-
-## Time Tracked
-
-
-# 🌪Dump
-_Fleeting Recommendations, Tasks, Wishlist's and all kind of checklist_
-
-
----
-# What is up?
-*Daily random logs or Highlights*
+# Daily Journal

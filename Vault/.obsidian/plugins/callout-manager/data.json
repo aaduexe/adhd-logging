@@ -1,0 +1,82 @@
+{
+  "callouts": {
+    "custom": [
+      "countdown",
+      "rsrc",
+      "map",
+      "atom",
+      "book",
+      "ent"
+    ],
+    "settings": {
+      "countdown": [
+        {
+          "changes": {
+            "icon": "lucide-calendar-x",
+            "color": "158, 158, 158"
+          }
+        }
+      ],
+      "rsrc": [
+        {
+          "changes": {
+            "icon": "lucide-blocks"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "68, 207, 110"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "68, 207, 110"
+          }
+        }
+      ],
+      "map": [
+        {
+          "changes": {
+            "icon": "lucide-map",
+            "color": "227, 107, 167"
+          }
+        }
+      ],
+      "atom": [
+        {
+          "changes": {
+            "icon": "lucide-atom",
+            "color": "168, 130, 255"
+          }
+        }
+      ],
+      "book": [
+        {
+          "changes": {
+            "icon": "lucide-book-open",
+            "color": "208, 181, 48"
+          }
+        }
+      ],
+      "ent": [
+        {
+          "changes": {
+            "icon": "lucide-videotape",
+            "color": "227, 107, 167"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

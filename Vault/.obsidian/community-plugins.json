@@ -1,7 +1,15 @@
 [
-  "dataview",
   "templater-obsidian",
+  "dataview",
   "nldates-obsidian",
+  "callout-manager",
   "calendar",
-  "obsidian-tracker"
+  "obsidian-tracker",
+  "heatmap-tracker",
+  "iconic",
+  "ultimate-todoist-sync",
+  "recipe-view",
+  "obsidian-style-settings",
+  "obsidian-paste-image-rename",
+  "folder-notes"
 ]

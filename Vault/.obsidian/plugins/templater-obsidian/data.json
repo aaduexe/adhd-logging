@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "97_Templates",
+      "template": "97_Templates/Idea_Template.md"
     }
   ],
   "enable_file_templates": false,
@@ -33,6 +33,5 @@
   ],
   "startup_templates": [
     ""
-  ],
-  "intellisense_render": 1
+  ]
 }

@@ -1,4 +1,46 @@
 {
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00_Inbox",
+  "showUnsupportedFiles": false,
+  "attachmentFolderPath": "98_Attachments",
+  "trashOption": "local",
+  "showInlineTitle": false,
+  "propertiesInDocument": "hidden",
+  "smartIndentList": true,
+  "strictLineBreaks": false,
+  "vimMode": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "99_Attachments"
+  "defaultViewMode": "preview",
+  "livePreview": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 98
+  },
+  "mobileToolbarCommands": [
+    "templater-obsidian:insert-templater",
+    "templater-obsidian:replace-in-file-templater",
+    "editor:insert-wikilink",
+    "editor:insert-embed",
+    "editor:insert-tag",
+    "editor:attach-file",
+    "editor:set-heading",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:toggle-strikethrough",
+    "editor:toggle-highlight",
+    "editor:toggle-code",
+    "editor:toggle-blockquote",
+    "editor:insert-link",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:toggle-checklist-status",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:undo",
+    "editor:redo",
+    "editor:configure-toolbar"
+  ]
 }

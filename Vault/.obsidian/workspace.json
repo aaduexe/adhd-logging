@@ -1,24 +1,25 @@
 {
   "main": {
-    "id": "1bfb7a41e4d3d9f4",
+    "id": "2a5d13fb59318fde",
     "type": "split",
     "children": [
       {
-        "id": "fd0c3f9390675018",
+        "id": "91695eeaab6827a2",
         "type": "tabs",
         "children": [
           {
-            "id": "f52c83da63b6c529",
+            "id": "3d6017d30be2145b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Guide/Pilot.md",
-                "mode": "source",
-                "source": false
+                "file": "00_Guide/01_demoNotes/dailyNote/2025-04-10.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Pilot"
+              "title": "2025-04-10"
             }
           }
         ]
@@ -27,15 +28,16 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4a09e6c487e1c85c",
+    "id": "6d030f9f9c380ac8",
     "type": "split",
     "children": [
       {
-        "id": "e330c0bee1be1ad1",
+        "id": "7cbff49062032699",
         "type": "tabs",
+        "dimension": 61.76470588235295,
         "children": [
           {
-            "id": "8c6008b0b9806ad4",
+            "id": "52bdf86719a7c666",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,13 +50,13 @@
             }
           },
           {
-            "id": "0515d037113e7b4a",
+            "id": "5bf1d33cc407a92c",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -65,7 +67,7 @@
             }
           },
           {
-            "id": "24fb02ee108095ac",
+            "id": "920b088141f522f9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,72 +79,132 @@
         ]
       },
       {
-        "id": "ca9d3c4a964097c6",
+        "id": "49c003aa438a4ec9",
         "type": "tabs",
+        "dimension": 38.23529411764706,
         "children": [
           {
-            "id": "6864f283f902d2ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Guide/Keys.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Keys"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 259.5
-  },
-  "right": {
-    "id": "89754f116eca6300",
-    "type": "split",
-    "children": [
-      {
-        "id": "ad656d773b512567",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "050f0bb235ebdd12",
+            "id": "686f0dbeb21838b3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Guide/Pilot.md",
+                "file": "01_DailyNotes/2025/Apr/2025-04-22.md",
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pilot"
+              "title": "Backlinks for 2025-04-22"
             }
           },
           {
-            "id": "c4be9476cf2403d2",
+            "id": "6dd5d9cfb625e658",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
+              "type": "localgraph",
               "state": {
-                "file": "Pilot.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "00_Guide/01_demoNotes/dailyNote/2025-04-10.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "-path:97_Templates, -path:99_Archive  ",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "path:01_DailyNotes  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14701138
+                      }
+                    },
+                    {
+                      "query": "path:03_Projects  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14725458
+                      }
+                    },
+                    {
+                      "query": "path:05_People  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 11657298
+                      }
+                    },
+                    {
+                      "query": "path:09_SubNotes  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 5431378
+                      }
+                    },
+                    {
+                      "query": "path:02_Ideas  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16384000
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -1.1,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.15093110106409147,
+                  "close": true
+                }
               },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Pilot"
+              "icon": "lucide-git-fork",
+              "title": "Graph of 2025-04-10"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 238
+  },
+  "right": {
+    "id": "31153e752d9ffef3",
+    "type": "split",
+    "children": [
+      {
+        "id": "44051e90557c9119",
+        "type": "tabs",
+        "dimension": 40.74074074074074,
+        "children": [
+          {
+            "id": "ef92616aeb05ed00",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "00_Guide/01_demoNotes/dailyNote/2025-04-10.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for 2025-04-10"
             }
           },
           {
-            "id": "7b3a46db08809c50",
+            "id": "4301d4b74b97c0e2",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -157,28 +219,57 @@
             }
           },
           {
-            "id": "5e322efc5a970ca6",
+            "id": "1321d5ae7e444b70",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "09f98b1da4592e6b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Build an Aircraft.md",
+                "file": "06_Leisure/06_Leisure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Build an Aircraft"
+              "title": "Outline of 06_Leisure"
             }
           }
         ]
       },
       {
-        "id": "ac7737e36a7693be",
+        "id": "1a1500513a893414",
         "type": "tabs",
+        "dimension": 59.25925925925925,
         "children": [
           {
-            "id": "9d4ad3fc37079253",
+            "id": "d131e1e0d8dfcd54",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00_Guide/01_demoNotes/dailyNote/2025-04-10.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-04-10"
+            }
+          },
+          {
+            "id": "5e7156ffe789df1c",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -187,67 +278,88 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 334.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "recipe-view:Toggle recipe view": false,
+      "templater-obsidian:Templater": false,
+      "callout-manager:Insert Callout": false,
+      "iconic:Open rulebook": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
-      "templater-obsidian:Templater": false
+      "audio-recorder:Start/stop recording": false,
+      "random-note:Open random note": false,
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "f52c83da63b6c529",
+  "active": "3d6017d30be2145b",
   "lastOpenFiles": [
-    "00_Guide/Keys.md",
-    "00_Guide/Pilot.md",
-    "00_Guide/INDEX.md",
-    "00_Guide/Templates.md",
-    "00_Guide/Object.md",
-    "00_Guide/01_demoNotes/Goal.md",
-    "00_Guide/Daily Notes.md",
-    "00_Guide/Cut the crap guide.md",
-    "00_Guide/Bulk Edit.md",
-    "00_Guide/01_demoNotes/Week-15-2025.md",
-    "00_Guide/01_demoNotes/Project.md",
-    "00_Guide/01_demoNotes/Book.md",
-    "00_Guide/01_demoNotes/dailyNote/2025-04-10.md",
-    "00_Guide/01_demoNotes/dailyNote/2025-03-06.md",
-    "00_Guide/01_demoNotes/dailyNote/2023-10-10.md",
-    "97_Templates/Full_Page_Templates/Travel_Project_Template.md",
-    "97_Templates/Full_Page_Templates/Visual_Project_Template.md",
-    "97_Templates/Full_Page_Templates/Goal_Template.md",
-    "97_Templates/Full_Page_Templates/Skill_Learning_Template.md",
-    "97_Templates/Full_Page_Templates/People_Template.md",
-    "97_Templates/Full_Page_Templates/Literature_Notes_Template.md",
-    "97_Templates/Full_Page_Templates/Leisure_Template.md",
-    "97_Templates/Full_Page_Templates/Idea_Full_Page_Template.md",
-    "97_Templates/Full_Page_Templates/Generic_Project_Template.md",
+    "97_Templates/Log_Templates/Leisure_extract_Template.md",
+    "00_DashBoards/Unresolved Notes.md",
+    "97_Templates/Log_Templates/Wish-list_Template.md",
+    "97_Templates/Log_Templates/Open_question_Template.md",
+    "97_Templates/Log_Templates/Sprint_log_Template.md",
     "97_Templates/Full_Page_Templates/Fleeting_Notes_Template.md",
-    "97_Templates/Full_Page_Templates/Daily_Notes_Template.md",
-    "00_Guide/Framework.canvas",
-    "01_DailyNotes/2025/Apr",
-    "01_DailyNotes/2025",
-    "00_Guide/01_demoNotes/dailyNote",
-    "02_WeeklyNotes/2025/Apr",
-    "02_WeeklyNotes/2025",
-    "00_Guide/02_Attachmetns/Pasted image 20250413144916.png",
-    "00_Guide/02_Attachmetns/Pasted image 20250413144701.png",
-    "00_Guide/02_Attachmetns/Pasted image 20250413141041.png",
-    "00_DashBoards",
-    "New folder",
-    "95_Dashboards/Platforms/desktop.ini",
-    "95_Dashboards/Platforms",
-    "95_Dashboards/desktop.ini",
-    "99_Attachments/Pasted image 20250411180952.png",
-    "00_Guide/02_Attachmetns/Pasted image 20250411181011.png"
+    "00_Guide/01_demoNotes/Goal.md",
+    "00_DashBoards/Due Tasks.md",
+    "97_Templates/Log_Templates/Dailies_Template.md",
+    "00_DashBoards/Wind down heatmap.md",
+    "01_DailyNotes/2025/May/2025-05-01.md",
+    "01_WeeklyNotes/2025/Apr/Week-18-2025.md",
+    "01_DailyNotes/2025/Apr/2025-04-28.md",
+    "01_DailyNotes/2025/Apr/2025-04-29.md",
+    "01_DailyNotes/2025/Apr/2025-04-30.md",
+    "03_Projects/🥸 SideQuest/Pulpé.md",
+    "01_DailyNotes/2025/May/2025-05-01 (conflict 2025-05-01-11-29-05).md",
+    "01_DailyNotes/2025/May",
+    "10_WebClips/2025-05-01T004423+0530, Global Comic Awards 2025.md",
+    "99_Archive/Git Commands.md",
+    "09_SubNotes/References - Pulpé.md",
+    "10_WebClips/2025-03-02T102538+0530, how to build the perfect color palette for art.md",
+    "98_Attachments/References - Pulpé - leaf on L.png",
+    "05_People/Bikram.md",
+    "98_Attachments/References - Pulpé - Ai Generated.png",
+    "03_Projects/🥸 SideQuest/Subs 42.md",
+    "97_Templates/Generic_Project_Template.md",
+    "01_DailyNotes/2025/Feb/2025-02-14.md",
+    "06_Leisure/06_Leisure.md",
+    "01_DailyNotes/2025/Apr/2025-04-24 (conflict 2025-04-24-12-47-36).md~RF48228811.TMP",
+    "98_Attachments/Pasted image 20250423154615.png",
+    "98_Attachments/2025-04-23.png",
+    "98_Attachments/Pasted image 20250113205634.jpg",
+    "98_Attachments/Pasted image 20250112210812.jpg",
+    "98_Attachments/Pasted image 20240904215838.png",
+    "98_Attachments/Pasted image 20240904214916.png",
+    "98_Attachments/Pasted Image 20240831235355_028.png",
+    "98_Attachments/Pasted image 20240831235220.png",
+    "98_Attachments/Baani(00919654195717)_20250222130525.mp3",
+    "01_DailyNotes/2024/Sep/desktop.ini",
+    "01_DailyNotes/2024/desktop.ini",
+    "01_DailyNotes/2024/Sep",
+    "01_DailyNotes/2024",
+    "98_Attachments/Habits.canvas",
+    "98_Attachments/Recording 20250415003339.m4a",
+    "98_Attachments/Recording 20250412222746.m4a",
+    "01_WeeklyNotes/2025/Apr/desktop.ini",
+    "12_Canvases/Roadmap - Buying decision app.canvas",
+    "12_Canvases/Flowchart - Buying decision app.canvas",
+    "12_Canvases/Habits.canvas",
+    "12_Canvases/skillTree - Blender.canvas",
+    "12_Canvases/Visualization - Blender 3D.canvas",
+    "12_Canvases/Storyboard - Announcement Video and Shorts.canvas",
+    "12_Canvases/Flowchart - Obsidian and Todoist sync.canvas",
+    "12_Canvases/Announcement Video and Shorts.canvas",
+    "12_Canvases/Pre-Production.canvas"
   ]
 }

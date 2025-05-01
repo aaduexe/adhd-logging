@@ -3,8 +3,16 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
+    "RecordDate": "date",
+    "IntendedResult": "multitext",
+    "Status": "text",
+    "Child": "multitext",
+    "Leisure": "multitext",
+    "Rating": "multitext",
+    "Collaborator": "multitext",
+    "Client": "multitext",
+    "Object": "multitext",
     "Parent": "multitext",
-    "Object": "text",
-    "IntendedResult": "multitext"
+    "Platform": "multitext"
   }
 }

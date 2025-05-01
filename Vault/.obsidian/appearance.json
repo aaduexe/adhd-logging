@@ -1,6 +1,16 @@
 {
-  "accentColor": "#e29f40",
+  "theme": "moonstone",
   "enabledCssSnippets": [
-    "S - Checkboxes"
-  ]
+    "hiddenProperty",
+    "Notebook Backgrounds",
+    "S - Checkboxes",
+    "MCL Gallery Cards"
+  ],
+  "accentColor": "#84dcb6",
+  "interfaceFontFamily": "Gill Sans",
+  "monospaceFontFamily": "Ubuntu Mono",
+  "textFontFamily": "Corbel",
+  "baseFontSizeAction": true,
+  "cssTheme": "AnuPpuccin",
+  "baseFontSize": 14
 }

@@ -6,7 +6,7 @@ The hell is this elaboration, [[Cut the crap guide|Just tell me how to use]].
 
 >[!tldr] Note
 >- If you have anything to contribute you can do it in the [GitHub Repo](https://github.com/aaduexe/adhd-logging).
->- In case of feedback, issue, or any questions, directly reach out to me on `aaduexe@+ov@gmail.com`
+>- In case of feedback, issue, or any questions, directly reach out to me on `aaduexe@gmail.com`
 
 <!-- 
 [version:: 1.0.0]
